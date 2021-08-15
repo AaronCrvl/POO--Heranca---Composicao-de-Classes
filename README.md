@@ -1,5 +1,7 @@
 Herança e Composição de Classes - Estudo
 
+Contato: carvalhosins@ufmg.br
+
 Exercício 1
 Escreva uma classe chamada Ponto3D capaz de manipular objetos com coordenadas cartesianas nos eixos x, y e z (tridimensionais). Para a implementação desta classe Ponto3D, vc deve fazer reuso do código da classe Ponto2D, cujo código é fornecido logo em seguida.
 
@@ -119,6 +121,12 @@ class Derived : public Base{
             void change(int x) { set(x); }
 };
 É possível adicionar uma função membro na classe Derived que chama a função read()?
+    
 Alterando a herança para private, ainda assim é possível adicionar uma função membro na classe Derived que chama a função read()?
+    
 É possível chamar a função read() a partir de um objeto do tipo Derived?
-Modifique o código de forma que a classe Derived use herança protected. Crie uma classe Derived2 que seja derivada da classe Derived utilizando herança public. É possível chamar read() a partir de uma função membro da classe Derived2? E o método value()?
+    
+Modifique o código de forma que a classe Derived use herança protected. 
+Crie uma classe Derived2 que seja derivada da classe Derived utilizando herança public. É possível chamar read() a partir de uma função membro da classe Derived2? 
+
+E o método value()?
